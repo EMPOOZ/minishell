@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_cd.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tconwy <tconwy@student.42.fr>              +#+  +:+       +#+        */
+/*   By: rmicheli <rmicheli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 16:32:38 by tconwy            #+#    #+#             */
-/*   Updated: 2022/03/18 16:41:10 by tconwy           ###   ########.fr       */
+/*   Updated: 2022/03/19 12:02:30 by rmicheli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ char	**_pwd_(char **env, char *str)
 
 char	**old_pwd(char **env, char *str)
 {
+	
 	int		i;
 	bool	a;
 	char	**env2;
